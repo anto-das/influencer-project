@@ -1,4 +1,212 @@
-h1{
-    background-color: magenta;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+}
+/* shared-part */
+.color-1{
+color:rgb(58, 58, 58);
+}
+.btn-primary{
+    width: 196px;
+    height: 44px;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 41px;
+    background-color: rgb(224, 44, 109);
+    font-size: 1rem;
+    font-weight: 700;
+}
+/* nav-part  */
+.display-flex{
+    display: flex;
+}
+.brand-title {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: rgb(58, 58, 58);;
+}
+.nav-section{
+    margin: auto 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-content> li{
+    padding-right: 20px;
+    
+}
+li{
+    list-style: none;
+}
+
+/* banner-part-start */
+.banner-part{
+    max-width: 1190px;
+    margin: 80px auto;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+}
+.banner-container{
+    max-width:582px;
+    justify-content: space-between;
+}
+.banner-title{
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.banner-description{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.header-image{
+    /* max-width: 440px; */
+}
+.banner-image{
+    background-image: url(./images/Circle\ design.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-position:; */
+}
+
+/* social-icons */
+.social-icons{
+    max-width: 1110px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+/* collection-section */
+.collection-title{
+    font-size: 1.8rem;
+    font-weight: 600;
     text-align: center;
+    margin-top: 100px;
+}
+
+/* collection-card */
+.collection-item{
+    max-width: 329px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.collection-item-pic{
+    max-width: 300px;
+    margin: 17px 14px;
+}
+.collection-item-title{
+    margin: 0px 164px 6px 14px;
+    font-size: 28px;
+    font-weight: 500;
+    color:  rgb(24, 25, 31);
+}
+.collection-prize{
+    margin: 6px 233px 0px 14px;
+    font-size: 24px;
+    font-weight: 400px;
+}
+.code-rate{
+    font-size: 14px;
+    font-weight: 700;
+    color:  rgb(94, 99, 102);
+    letter-spacing: 0.1px;
+    margin: 0px 6px;
+}
+.star-rating{
+    display: flex;
+    margin: 0px 193px 0px 14px;
+}
+i{
+    color: rgb(251, 130, 0);
+}
+.collection-item-description{
+    font-size: 14px;
+    font-weight: 700;
+    color:  rgb(120, 120, 133);
+    letter-spacing: 1.8%;
+    margin-top: 0px;
+    margin-right: 119px;
+    padding-left: 14px;
+    padding-bottom: 17px;
+}
+.collection-section{
+    max-width: 1047px;
+    margin: 47px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.see-more{
+    max-width: 1140px;
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: right;
+
+}
+/* feature part */
+.feature-product{
+    justify-content: space-between;
+}
+.feature-image{
+    width: 100%;
+}
+.feature-container{
+    max-width: 610px;
+}
+.feature-product{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.feature-description{
+    color: rgb(108, 108, 108);
+    font-size: 16px;
+    font-weight: 700;
+    margin: 16px 0px;
+}
+.feature-title{
+    color: rgb(10, 8, 38);
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.feature-button{
+    width: 155px;
+    height: 44px;
+    color:  rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+    background-color: rgb(224, 44, 109);
+    border: none;
+    margin-top: 16px;
+}
+
+/* footer-part */
+.footer-content{
+    max-width: 1440px;
+   margin-top:150px;
+    background-color:  #0a0120;
+}
+.footer-container{
+    max-width: 262px;
+    margin: 0 auto;
+    padding: 50px 0px;
+    text-align: center;
+}
+.footer-title{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.footer-description{
+    color: rgb(217, 219, 225);
+    font-size:14px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.font-icons i{
+    color: wheat;
 }
